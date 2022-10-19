@@ -1,0 +1,76 @@
+/* start body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* end body style */
+/* start header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 100px 0 100px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+
+/* end header style */
+/* start first section styles */
+.first-section {
+    margin: 40px 100px 20px 100px;
+    display: flex;
+}
+
+.main-camera {
+    width: 50%;
+}
+
+.main-camera h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.main-camera small {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.main-camera a {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+/* end start first section styles */
+/* strat section two */
+.section-two hr {
+    margin: 0 100px 10px 100px;
+    mar
+}
+
+.section-two {
+    margin: 0 100px 0 100px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+
+}
+
+.logos img {
+    height: 30px;
+    width: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
