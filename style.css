@@ -2,6 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: whitesmoke;
 }
 
 /* end body style */
@@ -74,3 +75,40 @@ nav a {
     margin-right: 50px;
 
 }
+
+/* end section two */
+/* start section three */
+.section-three {
+    margin: 20px 100px 10px 100px;
+}
+
+.section-three .heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section-three .images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    box-shadow: lightslategrey;
+}
+
+.image {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+.image img {
+    display: flex;
+    justify-content: center;
+}
+
+.images a,
+span {
+    font-size: .7em;
+}
+
+.images a {}
